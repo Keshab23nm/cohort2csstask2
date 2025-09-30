@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+@font-face {
+    font-family:hello ;
+    src: url(./fonts.ttf);
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+    background-image: url(./car1.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: hello;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+h1{
+    font-size: 2.4rem;
+    color: white;
+}
+button{
+    padding: 10px 25px;
+    font-family: hello;
+    border: none;
+    
+    background: linear-gradient(to right bottom,rgb(0, 94, 157),#FB96E8);
+    color: white;
+    font-weight: 600;
+    margin-top: 1rem;
+}
+
+button:hover{
+    background: linear-gradient(white);
+    color: black;
+}
