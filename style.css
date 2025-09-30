@@ -37,9 +37,11 @@ button{
     color: white;
     font-weight: 600;
     margin-top: 1rem;
+    border-radius: 20px;
 }
 
 button:hover{
     background: linear-gradient(white);
     color: black;
 }
+
